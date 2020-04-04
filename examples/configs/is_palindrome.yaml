@@ -1,0 +1,32 @@
+template_dir: "examples/challenge_templates"
+dest_dir: "examples/skeleton_challenges"
+
+languages:
+  python:
+    filename: "is_palindrome.py"
+    run_cmd: "python <FILE>"
+  javascript:
+    filename: "is_palindrome.js"
+    run_cmd: "node <FILE>"
+
+style_adjustments:
+  - is_palindrome
+token_subs:
+  boilerplate_tips: |
+    <CC> Boilerplate Interview Tips:
+    <CC> (1) Use the RUN button to execute code any time you'd like
+    <CC> (2) Feel free to Ask ANY questions & consider all possible inputs
+    <CC> (3) Ask if you forget a function name (don't reinvent the wheel!)
+  challenge_description: |
+    <CC> Complete the function "is_palindrome" below, which should return if the input string
+    <CC> is a palindrome or not, and raise an error when appropriate.
+  inputs: |
+    <CC> Input | Correct Answer
+        "",  <CC> True
+        "abcdefg",  <CC> False
+        "racecar",  <CC> True
+        "Madam",  <CC> True
+        "Not a Palindrome?",  <CC> False
+        "Was it a cat I saw?",  <CC> True
+        <null>,  <CC> <null>
+        1221,  <CC> <null>

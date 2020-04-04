@@ -1,0 +1,7 @@
+.DS_Store
+.pytest_cache/
+.vscode/
+node_modules/
+unshared/
+skeleton_challenges/
+data_struct_generator.py
